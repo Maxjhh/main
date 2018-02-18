@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Гамбургер</title>
+	<meta charset="utf-8">
+	<style>a{ text-decoration: none; }</style>
+</head>
+<body>
+<h1>Гамбургер</h1>
+<a href="#" onclick="setTimeout(function() { myHamburger = new Hamburger('large', 'cheese'); }, 1);">myHamburger = new Hamburger('large', 'cheese')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger = new Hamburger('large', 'salad'); }, 1);">myHamburger = new Hamburger("large", 'salad')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger = new Hamburger('large', 'potato'); }, 1);">myHamburger = new Hamburger("large", 'potato')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger = new Hamburger('small', 'cheese'); }, 1);">myHamburger = new Hamburger('small', 'cheese')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger = new Hamburger('small', 'salad'); }, 1);">myHamburger = new Hamburger("small", 'salad')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger = new Hamburger('small', 'potato'); }, 1);">myHamburger = new Hamburger("small", 'potato')</a><br>
+<br>
+<a href="#" onclick="setTimeout(function() { myHamburger.addTopping('mayo'); }, 1);">myHamburger.addTopping('mayo')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger.addTopping('spice'); }, 1);">myHamburger.addTopping('spice')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger.removeTopping('mayo'); }, 1);">myHamburger.removeTopping('mayo')</a><br>
+<a href="#" onclick="setTimeout(function() { myHamburger.removeTopping('spice'); }, 1);">myHamburger.removeTopping('spice')</a><br>
+<br><br>
+<div id="res"><b>Результат:</b></div>
+<br><br><a href="index.html">Меню</a>
+<script type="text/javascript" src="hamburger.js"></script>
+</body>
+</html>
